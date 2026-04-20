@@ -3,12 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+<<<<<<< HEAD
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
   },
+=======
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "npm run build && gh-pages -d dist"
+},
+>>>>>>> 79a1303fd1a495f4a2d958a3575a656d7de44fdd
   "dependencies": {
     "vue": "^3.5.32"
   },
@@ -16,7 +25,10 @@
     "@types/node": "^24.12.2",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/tsconfig": "^0.9.1",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> 79a1303fd1a495f4a2d958a3575a656d7de44fdd
     "typescript": "~6.0.2",
     "vite": "^8.0.4",
     "vue-tsc": "^3.2.6"
